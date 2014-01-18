@@ -11,7 +11,7 @@ class ExampleWindow (QtGui.QMainWindow):
         
     def initUI(self):
         
-        self.statusBar().showMessage('Ready for fucks')
+        self.statusBar().showMessage('Ready for ducks')
         self.ex = Example(self)
         self.setCentralWidget(self.ex)
         self.setWindowTitle('Pig Latinizer')    
